@@ -1,2 +1,5 @@
-# gpt-vs-claude-agent-security-benchmark
-Benchmarked GPT and Claude tool agents across finance, legal, and network audits to evaluate accuracy, hallucination risk, and AI decision reliability.
+# AI Agent Reliability & Risk Evaluation
+
+This project evaluates the real-world reliability of AI tool agents across three high-stakes domains: stock market analysis, lease contract risk review, and enterprise network security audits. I designed structured prompts to simulate realistic decision environments and benchmarked GPT-based and Claude-based agents on accuracy, latency, tool selection, and reasoning quality. The goal was not to compare models superficially, but to assess where autonomous agents succeed, where they hallucinate, and how their outputs would hold up in professional settings.
+
+The findings reveal a nuanced picture. Claude agents generally demonstrated stronger reasoning in legal risk identification and governance-oriented network recommendations, while GPT agents performed well in structured financial data retrieval but showed inconsistencies in ticker matching and contextual precision. Across both systems, pricing hallucinations and nonexistent sources surfaced as meaningful risks, particularly in security hardware costing and historical stock analysis. This project frames AI agents as decision-support systems that require validation layers, audit checkpoints, and bias mitigation strategies before deployment in financial, legal, or cybersecurity workflows.
